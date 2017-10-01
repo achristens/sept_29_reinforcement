@@ -24,13 +24,13 @@ class Task
   end
 end
 
-task1 = Task.new("Grocery shopping", "Sunday October 1")
-task2 = Task.new("Homework", "Monday October 2")
-task3 = Task.new("Laundry", "Thursday October 5")
-
-puts task1.description
-puts task1.due_date
-task1.change_task("Freelance work - Sprout")
-task1.change_date("Tuesday October 3")
-puts task1.description
-puts task1.due_date
+# task1 = Task.new("Grocery shopping", "Sunday October 1")
+# task2 = Task.new("Homework", "Monday October 2")
+# task3 = Task.new("Laundry", "Thursday October 5")
+#
+# puts task1.description
+# puts task1.due_date
+# task1.change_task("Freelance work - Sprout")
+# task1.change_date("Tuesday October 3")
+# puts task1.description
+# puts task1.due_date
