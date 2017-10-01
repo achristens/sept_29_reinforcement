@@ -1,6 +1,5 @@
 require_relative 'exercise1'
 class TodoList
-  # @@tasks = []
 
   def initialize(list_name)
     @list_name = list_name
